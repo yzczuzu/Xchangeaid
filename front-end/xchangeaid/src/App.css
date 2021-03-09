@@ -1,0 +1,61 @@
+.MainContainer {
+  text-align: center;
+
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+
+}
+
+
+/* This style is for the header */
+.nav_font_styling {
+  font-size:20px ;
+  position: relative;
+  margin: 59px 0px 50px calc((80% - 780px) * 0.5);
+  left: 480px;
+  grid-area: 1 / 1 / 2 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.logo_styling{ 
+  font-size: 49px;
+  position: relative;
+  margin: 38px 0px 50px calc((100% - 780px) * 0.5);
+  left: 320px;
+  grid-area: 1 / 1 / 2 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.logosize{
+font-size: xx-large;
+font-weight:bold;
+}
+/* above style is for the header */
+
+
+/* /*Button to add Article,Activity */
+.add_stylebutton {
+  float: right;
+  right: 0;
+}
+
+/*timeline container */
+.line-style{
+  border-top: 1px solid rgba(0,0,0,.1);
+  padding: 1.5rem 0;
+  margin-top: 30px;
+}
+
+.card-deck {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}

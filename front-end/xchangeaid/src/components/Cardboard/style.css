@@ -1,0 +1,56 @@
+.main-wrapper {
+    margin-bottom: 50px;
+    text-align: left;
+    
+  }
+  .card-wrap {
+    width: 29rem;
+    display: flex;
+}
+  
+.header-meta {
+    margin: 0 0 1rem;
+}
+.header-meta {
+    display: block;
+    position: relative;
+    font-weight: 300;
+}
+.header-meta .info {
+    margin: 0 1.5rem 0 .3rem;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1rem;
+}
+.header-meta .info .author {
+    display: block;
+    font-weight: 500;
+}
+.header-meta img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 32px;
+    width: 32px;
+    border-radius: 30px;
+}
+
+.pull-xs-right {
+    float:right;
+}
+
+.title-font{
+    text-align: center;
+    font-weight: bold;
+}
+
+.food1 {
+    width:100%;
+    height: 230px;
+}
+
+
+.smaller-img
+{
+    width:30%;
+    height: 30px;
+}

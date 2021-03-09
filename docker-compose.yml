@@ -1,0 +1,20 @@
+version: "3"
+services:
+  ui:
+    container_name: ui
+    build: ./front-end/xchangeaid
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./front-end/xchangeaid:/app
+    stdin_open: true
+    depends_on:
+      - api
+    links: 
+      - api
+
+  api:
+    container_name: api
+    build: ./service
+    ports:
+      - '8080:8080'
